@@ -21,9 +21,16 @@
 /*global require*/
 
 var version = require('./version');
+var terria = new Terria({
+});
 
 var terriaOptions = {
+    appName: 'AURIN',
+    supportEmail: 'admin@aurin.org.au',
     baseUrl: 'build/TerriaJS'
+    //cesiumBaseUrl: configuration.cesiumBaseUrl,
+    //regionMappingDefinitionsUrl: configuration.regionMappingDefinitionsUrl,
+    //analytics: new GoogleAnalytics()
 };
 var configuration = {
     bingMapsKey: undefined // use Cesium key
@@ -36,6 +43,8 @@ var checkBrowserCompatibility = require('terriajs/lib/ViewModels/checkBrowserCom
 checkBrowserCompatibility('ui');
 
 var knockout = require('terriajs-cesium/Source/ThirdParty/knockout');
+var defined = require('terriajs-cesium/Source/Core/defined');
+var fs = require('fs');
 
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
 var TerriaViewer = require('terriajs/lib/ViewModels/TerriaViewer');
@@ -65,12 +74,14 @@ var NavigationViewModel = require('terriajs/lib/ViewModels/NavigationViewModel')
 var NowViewingAttentionGrabberViewModel = require('terriajs/lib/ViewModels/NowViewingAttentionGrabberViewModel');
 var NowViewingTabViewModel = require('terriajs/lib/ViewModels/NowViewingTabViewModel');
 var PopupMessageViewModel = require('terriajs/lib/ViewModels/PopupMessageViewModel');
+var PopupMessageConfirmationViewModel = require('terriajs/lib/ViewModels/PopupMessageConfirmationViewModel');
 var SearchTabViewModel = require('terriajs/lib/ViewModels/SearchTabViewModel');
 var SettingsPanelViewModel = require('terriajs/lib/ViewModels/SettingsPanelViewModel');
 var SharePopupViewModel = require('terriajs/lib/ViewModels/SharePopupViewModel');
 var MapProgressBarViewModel = require('terriajs/lib/ViewModels/MapProgressBarViewModel');
 var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateApplicationOnHashChange');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
+var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 
 var Terria = require('terriajs/lib/Models/Terria');
 var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
@@ -133,7 +144,8 @@ terria.start({
     var globalBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
 
     var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
-    selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+    //selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+    selectBaseMap(terria, allBaseMaps, 'Positron (Light)', true);
 
     // Create the Settings / Map panel.
     var settingsPanel = SettingsPanelViewModel.create({
@@ -144,8 +156,8 @@ terria.start({
     });
 
     var brandBarElements = defaultValue(terria.configParameters.brandBarElements, [
-            '',
-            '<a target="_blank" href="http://terria.io"><img src="images/terria_logo.png" height="52" title="Version: {{ version }}" /></a>',
+            '<a target="_blank" href="http://www.aurin.org.au"><img src="images/aurin_white.png" height="50" alt="AURIN" title="Version: ' + version + '" /></a>',
+            '<a target="_blank" href="https://education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img src="images/gov_encris.png" height="45" alt="NCRIS" /></a>'
             ''
         ]);
     brandBarElements = brandBarElements.map(function(s) { return s.replace(/\{\{\s*version\s*\}\}/, version);});
@@ -214,7 +226,7 @@ terria.start({
             }),
             new MenuBarItemViewModel({
                 label: 'About',
-                tooltip: 'About National Map.',
+                tooltip: 'About AURIN National Map.',
                 svgPath: svgInfo,
                 svgPathWidth: 18,
                 svgPathHeight: 18,
@@ -326,6 +338,34 @@ terria.start({
         container: document.getElementById('cesiumContainer'),
         terria: terria
     });
+    // Add the disclaimer, if specified
+    if(defined(terria.configParameters.globalDisclaimer)) {
+      var disclaimer = terria.configParameters.globalDisclaimer;
+      if(defined(disclaimer.enabled) && disclaimer.enabled) {
+          var message = '';
+          //if (location.hostname.indexOf('nationalmap.gov.au') === -1) {
+            //message += fs.readFileSync(__dirname + '/lib/Views/DevelopmentDisclaimer.html', 'utf8');
+          //}
+          message += fs.readFileSync(__dirname + '/lib/Views/GlobalDisclaimer.html', 'utf8');
+          var options = {
+              title: defined(disclaimer.title) ? disclaimer.title : 'AURIN NationalMap - Terms of Use',
+              confirmText: "I Agree",
+              width: 700,
+              height: 550,
+              message: message,
+              horizontalPadding : 100
+          };
+
+          if(defined(disclaimer.confirmationRequired) && disclaimer.confirmationRequired) {
+              // To account for confirmation buttons
+              options.height += 30;
+              PopupMessageConfirmationViewModel.open(ui, options);
+          } else if(!defined(disclaimer.confirmationRequired) ||
+                    (defined(disclaimer.confirmationRequired) && !disclaimer.confirmationRequired)) {
+              PopupMessageViewModel.open(ui, options);
+          }
+      }
+    }
 
     document.getElementById('loadingIndicator').style.display = 'none';
 });
