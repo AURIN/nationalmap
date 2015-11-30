@@ -1,0 +1,131 @@
+{
+  "catalog": [
+    {
+      "items": [
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ieo_aust_sa1",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Education and Occupation (IEO), by SA1, for the year 2011.",
+          "name": "ABS SEIFA IEO by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ieo_aust_sa2",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Education and Occupation (IEO), by SA2, for the year 2011.",
+          "name": "ABS SEIFA IEO by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ier_aust_sa1",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Economic Resources (IER), by SA1, for the year 2011.",
+          "name": "ABS SEIFA IER by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ier_aust_sa2",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Economic Resources (IER), by SA2, for the year 2011.",
+          "name": "ABS SEIFA IER by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsad_aust_sa1",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Relative Socio-Economic Advantage and Disadvantage (IRSAD), by SA1, for the year 2011.",
+          "name": "ABS SEIFA IRSAD by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsad_aust_sa2",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Relative Socio-Economic Advantage and Disadvantage (IRSAD), by SA2, for the year 2011.",
+          "name": "ABS SEIFA IRSAD by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsd_aust_sa1",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Relative Socio-Economic Disadvantage (IRSD), by SA1, for the year 2011.",
+          "name": "ABS SEIFA IRSD by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsd_aust_sa2",
+          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "description": "The ABS SEIFA Index of Relative Socio-Economic Disadvantage (IRSD), by SA2, for the year 2011.",
+          "name": "ABS SEIFA IRSD by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        }
+      ],
+      "type": "group",
+      "name": "Socio-Economic Indices",
+      "isOpen": "true"
+    }
+  ]
+}
