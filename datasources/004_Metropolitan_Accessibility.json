@@ -10,14 +10,7 @@
           },
           "url": "http://nationalmap.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "rectangle": [
-            "115.429107666016",
-            "153.506378173828",
-            "-43.0942115783691",
-            "-26.9167575836182"
-          ],
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
-          "description": "The Metro ARIA dataset provides six indices to comparatively evaluate metropolitan accessibility both within and across all Australian Capital Cities. The indices reflect the ease or difficulty people face accessing basic services within metropolitan areas, and is based on the measurement of road distances people travel to reach different services. Metro ARIA is a composite index which combines accessibility measures for five different service themes: (1) Education; (2) Health; (3) Shopping; (4) Public Transport; and (5) Financial/Postal services.  Metro ARIA and each of the service theme sub-indices have been calculated at SA1 level and classified into five accessibility levels graded from low to high.",
+          "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Combined",
           "info": [
             {
@@ -34,14 +27,7 @@
           },
           "url": "http://nationalmap.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "rectangle": [
-            "115.429107666016",
-            "153.506378173828",
-            "-43.0942115783691",
-            "-26.9167575836182"
-          ],
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
-          "description": "The Metro ARIA dataset provides six indices to comparatively evaluate metropolitan accessibility both within and across all Australian Capital Cities. The indices reflect the ease or difficulty people face accessing basic services within metropolitan areas, and is based on the measurement of road distances people travel to reach different services. Metro ARIA is a composite index which combines accessibility measures for five different service themes: (1) Education; (2) Health; (3) Shopping; (4) Public Transport; and (5) Financial/Postal services.  Metro ARIA and each of the service theme sub-indices have been calculated at SA1 level and classified into five accessibility levels graded from low to high.",
+          "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Education",
           "info": [
             {
@@ -58,14 +44,7 @@
           },
           "url": "http://nationalmap.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "rectangle": [
-            "115.429107666016",
-            "153.506378173828",
-            "-43.0942115783691",
-            "-26.9167575836182"
-          ],
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
-          "description": "The Metro ARIA dataset provides six indices to comparatively evaluate metropolitan accessibility both within and across all Australian Capital Cities. The indices reflect the ease or difficulty people face accessing basic services within metropolitan areas, and is based on the measurement of road distances people travel to reach different services. Metro ARIA is a composite index which combines accessibility measures for five different service themes: (1) Education; (2) Health; (3) Shopping; (4) Public Transport; and (5) Financial/Postal services.  Metro ARIA and each of the service theme sub-indices have been calculated at SA1 level and classified into five accessibility levels graded from low to high.",
+          "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Health",
           "info": [
             {
@@ -82,14 +61,7 @@
           },
           "url": "http://nationalmap.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "rectangle": [
-            "115.429107666016",
-            "153.506378173828",
-            "-43.0942115783691",
-            "-26.9167575836182"
-          ],
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
-          "description": "The Metro ARIA dataset provides six indices to comparatively evaluate metropolitan accessibility both within and across all Australian Capital Cities. The indices reflect the ease or difficulty people face accessing basic services within metropolitan areas, and is based on the measurement of road distances people travel to reach different services. Metro ARIA is a composite index which combines accessibility measures for five different service themes: (1) Education; (2) Health; (3) Shopping; (4) Public Transport; and (5) Financial/Postal services.  Metro ARIA and each of the service theme sub-indices have been calculated at SA1 level and classified into five accessibility levels graded from low to high.",
+          "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Shopping",
           "info": [
             {
@@ -106,14 +78,7 @@
           },
           "url": "http://nationalmap.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "rectangle": [
-            "115.429107666016",
-            "153.506378173828",
-            "-43.0942115783691",
-            "-26.9167575836182"
-          ],
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
-          "description": "The Metro ARIA dataset provides six indices to comparatively evaluate metropolitan accessibility both within and across all Australian Capital Cities. The indices reflect the ease or difficulty people face accessing basic services within metropolitan areas, and is based on the measurement of road distances people travel to reach different services. Metro ARIA is a composite index which combines accessibility measures for five different service themes: (1) Education; (2) Health; (3) Shopping; (4) Public Transport; and (5) Financial/Postal services.  Metro ARIA and each of the service theme sub-indices have been calculated at SA1 level and classified into five accessibility levels graded from low to high.",
+          "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Public Transport",
           "info": [
             {
@@ -130,14 +95,7 @@
           },
           "url": "http://nationalmap.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "rectangle": [
-            "115.429107666016",
-            "153.506378173828",
-            "-43.0942115783691",
-            "-26.9167575836182"
-          ],
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
-          "description": "The Metro ARIA dataset provides six indices to comparatively evaluate metropolitan accessibility both within and across all Australian Capital Cities. The indices reflect the ease or difficulty people face accessing basic services within metropolitan areas, and is based on the measurement of road distances people travel to reach different services. Metro ARIA is a composite index which combines accessibility measures for five different service themes: (1) Education; (2) Health; (3) Shopping; (4) Public Transport; and (5) Financial/Postal services.  Metro ARIA and each of the service theme sub-indices have been calculated at SA1 level and classified into five accessibility levels graded from low to high.",
+          "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Financial/Postal services",
           "info": [
             {
