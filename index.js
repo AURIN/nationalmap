@@ -226,7 +226,7 @@ terria.start({
             }),
             new MenuBarItemViewModel({
                 label: 'About',
-                tooltip: 'About AURIN National Map.',
+                tooltip: 'About AURIN Map.',
                 svgPath: svgInfo,
                 svgPathWidth: 18,
                 svgPathHeight: 18,
@@ -348,7 +348,7 @@ terria.start({
           //}
           message += fs.readFileSync(__dirname + '/lib/Views/GlobalDisclaimer.html', 'utf8');
           var options = {
-              title: defined(disclaimer.title) ? disclaimer.title : 'AURIN NationalMap - Terms of Use',
+              title: defined(disclaimer.title) ? disclaimer.title : 'AURIN Map - Terms of Use',
               confirmText: "I Agree",
               width: 700,
               height: 550,

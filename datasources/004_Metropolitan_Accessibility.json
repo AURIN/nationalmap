@@ -8,7 +8,7 @@
           "parameters": {
             "styles": "MetroARIA_combined"
           },
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Combined",
@@ -25,7 +25,7 @@
           "parameters": {
             "styles": "MetroARIA_edu"
           },
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Education",
@@ -42,7 +42,7 @@
           "parameters": {
             "styles": "MetroARIA_hlth"
           },
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Health",
@@ -59,7 +59,7 @@
           "parameters": {
             "styles": "MetroARIA_shop"
           },
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Shopping",
@@ -76,7 +76,7 @@
           "parameters": {
             "styles": "MetroARIA_ptrans"
           },
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Public Transport",
@@ -93,7 +93,7 @@
           "parameters": {
             "styles": "MetroARIA_fpost"
           },
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Adelaide - Australian Population and Migration Research Centre, (2015): SA1 Metro ARIA 2014 for Australian Capital City Urban Centres.",
           "name": "Metro ARIA Financial/Postal services",

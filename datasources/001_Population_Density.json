@@ -5,7 +5,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:abs_pop_density_mb_2011",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
           "description": "",
@@ -20,7 +20,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:abs_b01_pop_density_sa1_2011",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
           "description": "",
