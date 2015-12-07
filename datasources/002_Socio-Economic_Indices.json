@@ -5,7 +5,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_ieo_aust_sa1",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IEO by SA1 2011",
@@ -19,7 +19,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_ieo_aust_sa2",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IEO by SA2 2011",
@@ -33,7 +33,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_ier_aust_sa1",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IER by SA1 2011",
@@ -47,7 +47,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_ier_aust_sa2",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IER by SA2 2011",
@@ -61,7 +61,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_irsad_aust_sa1",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IRSAD by SA1 2011",
@@ -75,7 +75,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_irsad_aust_sa2",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IRSAD by SA2 2011",
@@ -89,7 +89,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_irsd_aust_sa1",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IRSD by SA1 2011",
@@ -103,7 +103,7 @@
         {
           "opacity": "0.6",
           "layers": "nationalmap:seifa_irsd_aust_sa2",
-          "url": "http://nationalmap.aurin.org.au/geoserver/ows",
+          "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
           "name": "ABS SEIFA IRSD by SA2 2011",

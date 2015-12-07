@@ -7,7 +7,7 @@
         "argo.jcommops.org",
         "www.abc.net.au",
         "geoserver.aurin.org.au",
-        "nationalmap.aurin.org.au",
+        "map.aurin.org.au",
         "mapsengine.google.com",
         "s3-ap-southeast-2.amazonaws.com",
         "adelaidecitycouncil.com",
@@ -22,13 +22,13 @@
         "googleAnalyticsKey": null,
         "googleAnalyticsOptions": null,
         "disclaimer": {
-            "text": "Disclaimer: AURIN does not warrant and is not liable for the accuracy of the information and data on the AURIN NationalMap website.",
+            "text": "Disclaimer: AURIN does not warrant and is not liable for the accuracy of the information and data on the AURIN Map website.",
             "url": "About.html"
         },
         "globalDisclaimer": {
             "enabled": true,
             "confirmationRequired": true,
-            "title": "AURIN NationalMap - Terms of Use"
+            "title": "AURIN Map - Terms of Use"
         }
     }
 }
