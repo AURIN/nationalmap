@@ -22,13 +22,13 @@
         "googleAnalyticsKey": null,
         "googleAnalyticsOptions": null,
         "disclaimer": {
-            "text": "Disclaimer: AURIN does not warrant and is not liable for the accuracy of the information and data on the AURIN Map website.",
+            "text": "AURINMap is copyright © The University of Melbourne 2011-2015",
             "url": "About.html"
         },
         "globalDisclaimer": {
             "enabled": true,
             "confirmationRequired": true,
-            "title": "AURIN Map - Terms of Use"
+            "title": "AURIN Map - Disclaimer"
         }
     }
 }

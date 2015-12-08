@@ -349,7 +349,7 @@ terria.start({
           //}
           message += fs.readFileSync(__dirname + '/lib/Views/GlobalDisclaimer.html', 'utf8');
           var options = {
-              title: defined(disclaimer.title) ? disclaimer.title : 'AURIN Map - Terms of Use',
+              title: defined(disclaimer.title) ? disclaimer.title : 'AURIN Map - Disclaimer',
               confirmText: "I Agree",
               width: 700,
               height: 550,
