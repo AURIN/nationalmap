@@ -350,8 +350,8 @@ terria.start({
           var options = {
               title: defined(disclaimer.title) ? disclaimer.title : 'AURIN Map - Disclaimer',
               confirmText: "I Agree",
-              width: 700,
-              height: 550,
+              width: 720,
+              height: 600,
               message: message,
               horizontalPadding : 100
           };
