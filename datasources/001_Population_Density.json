@@ -7,7 +7,7 @@
           "layers": "nationalmap:abs_pop_density_mb_2011",
           "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project, University of Melbourne<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
           "description": "",
           "name": "ABS Population Density by Mesh Block",
           "info": [
@@ -22,7 +22,7 @@
           "layers": "nationalmap:abs_b01_pop_density_sa1_2011",
           "url": "http://map.aurin.org.au/geoserver/ows",
           "type": "wms",
-          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
+          "dataCustodian": "The [AURIN](http://www.aurin.org.au/) project, University of Melbourne<br />[admin@aurin.org.au](mailto:admin@aurin.org.au)",
           "description": "",
           "name": "ABS B01 Population Density by SA1",
           "info": [
