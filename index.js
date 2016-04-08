@@ -21,8 +21,6 @@
 /*global require*/
 
 var version = require('./version');
-var terria = new Terria({
-});
 
 var terriaOptions = {
     appName: 'AURIN',
@@ -81,7 +79,6 @@ var SharePopupViewModel = require('terriajs/lib/ViewModels/SharePopupViewModel')
 var MapProgressBarViewModel = require('terriajs/lib/ViewModels/MapProgressBarViewModel');
 var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateApplicationOnHashChange');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
-var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 
 var Terria = require('terriajs/lib/Models/Terria');
 var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
@@ -157,7 +154,7 @@ terria.start({
 
     var brandBarElements = defaultValue(terria.configParameters.brandBarElements, [
             '<a target="_blank" href="http://www.aurin.org.au"><img src="images/aurin_white.png" height="50" alt="AURIN" title="Version: ' + version + '" /></a>',
-            '<a target="_blank" href="https://education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img src="images/gov_encris.png" height="45" alt="NCRIS" /></a>'
+            '<a target="_blank" href="https://education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img src="images/gov_encris.png" height="45" alt="NCRIS" /></a>',
             ''
         ]);
     brandBarElements = brandBarElements.map(function(s) { return s.replace(/\{\{\s*version\s*\}\}/, version);});
@@ -351,7 +348,7 @@ terria.start({
               title: defined(disclaimer.title) ? disclaimer.title : 'AURIN Map - Disclaimer',
               confirmText: "I Agree",
               width: 720,
-              height: 600,
+              height: 630,
               message: message,
               horizontalPadding : 100
           };
